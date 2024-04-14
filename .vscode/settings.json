@@ -1,0 +1,8 @@
+{
+    "rust-analyzer.cargo.buildScripts.rebuildOnSave": true,
+    "rust-analyzer.checkOnSave.overrideCommand": [
+        "./cargo",
+        "xcheck",
+        "--json-output"
+    ]
+}
