@@ -1,0 +1,4 @@
+# Adding targets
+[build]
+target = "x86_64-unknown-none"
+# target = "aarch64-unknown-none" to run in rbi
