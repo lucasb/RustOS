@@ -9,3 +9,4 @@ bash -s -- -y --no-modify-path
 # add targets
 rustup target add x86_64-unknown-none
 rustup target add aarch64-unknown-none
+rustup target add armv7a-none-eabi

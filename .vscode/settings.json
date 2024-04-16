@@ -1,8 +1,4 @@
 {
-    "rust-analyzer.cargo.buildScripts.rebuildOnSave": true,
-    "rust-analyzer.checkOnSave.overrideCommand": [
-        "./cargo",
-        "xcheck",
-        "--json-output"
-    ]
+    "rust-analyzer.cargo.target": "aarch64-unknown-none",
+    "rust-analyzer.checkOnSave.allTargets": false,
 }
